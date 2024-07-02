@@ -13,11 +13,6 @@ public class Rook extends ChessPiece {
     }
 
     @Override
-    public String toString() {
-        return "R";
-    }
-
-    @Override
     public boolean[][] possibleMoves() {
         boolean[][] mat = new boolean[getBoard().getRows()][getBoard().getColumns()];
 
@@ -66,6 +61,11 @@ public class Rook extends ChessPiece {
         }
 
         return mat;
+    }
+
+    @Override
+    public String toString() {
+        return "R";
     }
 
 }
