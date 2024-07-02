@@ -14,7 +14,7 @@ import chess.ChessPosition;
 public class Program {
 
     public Program() {
-        
+
         Scanner in = new Scanner(System.in);
         ChessMatch chessMatch = new ChessMatch(null);
         List<ChessPiece> captured = new ArrayList<>();
@@ -29,7 +29,7 @@ public class Program {
 
                 boolean[][] possibleMoves = chessMatch.possibleMoves(source);
                 UI.clearScreen();
-                UI.printBoard(chessMatch.getPieces(), possibleMoves); 
+                UI.printBoard(chessMatch.getPieces(), possibleMoves);
                 System.out.println();
                 System.out.print("Target: ");
                 ChessPosition target = UI.readChessPosition(in);
@@ -38,13 +38,12 @@ public class Program {
 
                 if (capturedPiece != null) {
                     captured.add(capturedPiece);
+
                 }
-            } 
-            catch (ChessException e) {
+            } catch (ChessException e) {
                 System.out.println(e.getMessage());
                 in.nextLine();
-            } 
-            catch (InputMismatchException e) {
+            } catch (InputMismatchException e) {
                 System.out.println(e.getMessage());
                 in.nextLine();
             }
