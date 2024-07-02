@@ -11,6 +11,7 @@ import chess_pieces.Bishop;
 import chess_pieces.King;
 import chess_pieces.Knight;
 import chess_pieces.Pawn;
+import chess_pieces.Queen;
 import chess_pieces.Rook;
 
 public class ChessMatch {
