@@ -16,6 +16,7 @@ public class ChessMatch {
     private int turn;
     private Board board;
     private boolean check;
+    private boolean checkMate;
 
     private List<Piece> piecesOnTheBoard = new ArrayList<>();
     private List<Piece> capturedPieces = new ArrayList<>();
@@ -39,6 +40,10 @@ public class ChessMatch {
         return check;
     }
 
+    public boolean getCheckMate() {
+        return checkMate;
+    }
+
     public ChessPiece[][] getPieces() {
         ChessPiece[][] mat = new ChessPiece[board.getRows()][board.getColumns()];
         for (int i = 0; i < board.getRows(); i++) {
@@ -53,6 +58,12 @@ public class ChessMatch {
         Position position = sourChessPosition.toPosition();
         validateSourcePosition(position);
         return board.piece(position).possibleMoves();
+    }
+
+    private boolean testCheckMate(Color color) {
+        if (!testCheck(color)) {
+
+        }
     }
 
     public ChessPiece performChessMove(ChessPosition sourChessPosition, ChessPosition targetPosition) {
@@ -157,6 +168,6 @@ public class ChessMatch {
     }
 
     private void initialSetup() {
-       
+
     }
 }
