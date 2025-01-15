@@ -1,44 +1,44 @@
 # ♟ Chess Game
 
-An interactive and flexible game developed in Java.
+Jogo flexível e interativo com o usuário de modo a torná-lo mais divertido.
 
 ## 🌟 Features
 
-- 🎮 All special moves included.
-- ☕ Only uses POO.
-- 🛠 Easily extendable with another functional options.
+- 🎮 Incluir todos os movimentos especiais.
+- ☕ Apenas usa POO.
+- 🛠  Fácil de implementar funções extras.
 
 ## 📥 Installation
 
-Install the code using:
+Instale o jogo executando o seguinte comando: 
 
 ```bash
  git clone https://github.com/joaosehn2406/chess_match.git
 ```
 
-## 🚀 Usage
+## 🚀 Usabilidade
 
-### 1. **Initialization**
+### 1. **Inicialização**
 
-Open the project on your IDEA:
+Abra o projeto na sua IDE:
 
 ```git
 cd chess_math
 ```
 
-### 2. **Staring the game**
+### 2. **Startando o jogo**
 
-Play run in your IDEA or in cmd 
-
-
-### 3. **Done**
-
-Your game is ready to play
+Aperte rodar na sua IDE e comece a jogar!
 
 
+### 3. **Feito**
 
-## 👥 Contribute
+Seu jogo está pronto para ser jogado.
 
-Jump in! 🏊‍♂️ [Open an issue](https://github.com/joaosehn2406/chess_match/issues) or submit PRs.
+
+
+## 👥 Contribuição
+
+Contribua! 🏊‍♂️ [Open an issue](https://github.com/joaosehn2406/chess_match/issues) 
 
 
