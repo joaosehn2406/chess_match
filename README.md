@@ -8,7 +8,7 @@ Jogo flexível e interativo com o usuário de modo a torná-lo mais divertido.
 - ☕ Apenas usa POO.
 - 🛠  Fácil de implementar funções extras.
 
-## 📥 Installation
+## 📥 Instalação
 
 Instale o jogo executando o seguinte comando: 
 
